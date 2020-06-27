@@ -22,16 +22,25 @@
     margin-top: 10px;
 }
 
+.bio-image {
+  width: 200px;
+  height: 265px;
+  margin-right: 20px;
+  float: left;
+}
 
 
-@media screen and (max-width: 768px) {
+
+
+/* @media screen and (max-width: 768px) {
   /* The body's bg color will be #333 */
-  body {
+/*  body {
     background-color: #333;
   }
 
   /* The wrapper's width will be 600px */
-  .wrapper {
+/*  .wrapper {
     width: 600px;
   }
-}
+} */
+
