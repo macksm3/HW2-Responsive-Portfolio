@@ -42,21 +42,19 @@
             </div>
         </div>
         <div class="row">
-            <form class="col-3" action="#" method="post">
-                <fieldset class="Contact">
-                    <Lable>
-                        Name
-                        <input type="text" name="name" placeholder="Full name" required>
-                    </lable>
-                    <Lable>
-                        Email
-                        <input type="email" name="email" placeholder="Email address" required>
-                    </lable>
-                    <Lable>
-                        Comments
-                        <textarea name="comments"></textarea> 
-                    </lable>
-                </fieldset>
+            <form class="contact-me col-12" action="#" method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
                 <button class="btn btn-success btn-lg" type="submit">Submit</button>
             </form>
         </div/>

@@ -19,8 +19,8 @@ body {
   /* Box-model */
   width: 1024px;
   /* Positioning */
-  margin: 40px auto;
-  margin-bottom: 10px;
+  padding: 40px auto;
+  margin-top: 40px;
   background: #fff;
 }
 
@@ -29,13 +29,11 @@ body {
   margin-left: -20px;
   font-size: 36px;
   background: rgb(34, 13, 228);
-  /* color: #eeeeee; */
 }
 .nav-tabs {
   font-size: 24px;
   display: flex;
   flex-direction: row;
-  /* color: #eeeeee; */
 }
 
 /* .nav-link {
@@ -48,6 +46,7 @@ hr {
   border-color: rgb(23, 63, 66);
 }
 
+/* about me page  */
 .bio-image {
   width: 200px;
   height: 265px;
@@ -55,6 +54,12 @@ hr {
   float: left;
 }
 
+/* portfolio page  */
+
+/* contact page  */
+.contact-me {
+  padding-bottom: 20px;
+}
 
 
 
