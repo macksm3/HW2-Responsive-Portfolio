@@ -7,5 +7,7 @@ I then built out the body of each page
 
 find live site at https://macksm3.github.io/HW2-Responsive-Portfolio 
 
+pages display correct when viewed local but not live on github
+
 
 
