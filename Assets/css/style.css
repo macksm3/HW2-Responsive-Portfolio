@@ -1,5 +1,9 @@
 /* Responsive portfolio local styles */
 
+* {
+  box-sizing: border-box;
+}
+
 /* header {
     /* padding: 20px;    
 } */
@@ -19,7 +23,11 @@
 } */
 
 .container {
-    margin-top: 10px;
+  /* Box-model */
+  width: 1024px;
+  /* Positioning */
+  margin: 40px auto;
+  /* margin-top: 10px; */
 }
 
 .bio-image {
